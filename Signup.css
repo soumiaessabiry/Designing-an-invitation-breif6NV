@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+   
+}
+
+
+body{ 
+ background: linear-gradient(to right,#f08e55,#A831A5);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+
+}
+.logo{
+    
+    padding-bottom: 3px;
+    margin-top: 0px;
+    width: 173px;
+    height: 23px;
+    font-weight: bolder;
+
+
+}
+a:hover{
+    background-color:#f08e55;
+}
+input 
+{
+  height: 50px;
+  width: 300px;
+  font-size: 1.2em;
+}
+.formulaire_de_sign{
+padding-left: 80px ;
+padding-right: 50px;
+padding-top: 40px;
+padding-bottom: 40px;
+border: 5px #471717 solid;
+border-radius: 25px;
+
+}
+/********************************** form general**********************************/
+.fsign{
+    width:  60%;
+    min-height: 96%;
+    background-color: #FFF7E1;
+    padding: 40px 89px;
+    margin-top: 36px;
+
+}
+.logt{
+    font-size: 2rem;
+    font-weight: 800px;
+    font-weight: bolder;
+    background-color: #471717;
+    color: white;
+    align-items: center;
+    padding-left: 117px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 355px;
+    height: 53px;
+    padding-left: 117px;
+    padding-right: 117px;
+    border-radius: 35px;
+
+}
+.nom{
+    
+
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 175px;
+    border-radius: 35px;
+    height: 44px;
+    width: 227px;
+    border : 2px #2B2222;
+    display: block;
+
+}
+
+.email{
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 175px;
+    border-radius: 35px;
+    height: 44px;
+    width: 227px;
+    border : 2px #2B2222;
+    display: block;
+}
+.password{
+    
+
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 175px;
+    border-radius: 35px;
+    height: 44px;
+    width: 227px;
+    border : 2px #2B2222;
+    display: block;
+}
+
+.connexion{
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 175px;
+    height: 44px;
+    width: 227px;
+    border : 2px #2B2222;
+   
+    
+}
+.lien{
+    font-weight: bolder;
+    padding-left: 20px;
+
+}
+.btn{
+    
+    height: 50px;
+    width: 100px;
+    background-color:#f0ae87 ;
+    font-weight: bolder;
+
+}
+
+@media(max-width:780px){
+
+    body{
+        
+    border-right-width: 0px;
+    height: 737px;
+    width: 504px;
+
+/*********************************** div de nom ------>lien**********************************/
+    }
+    .formulaire_de_sign{
+       
+        height: 640px;
+        width: 418px;
+    height: 627px;
+    padding-top: 23px;
+    padding-right: 17px;
+    padding-left: 30px;
+    margin-left: 6px;
+    }
+    /*********************************** formulaire**********************************/
+    .fsign{ 
+    height: 670px;
+    margin-left: 0px;
+    margin-left:1px ;
+    width: 450px;
+    padding-left: 14px;
+   
+    }
+/***********************************log_in**********************************/
+    .formulaire_de_sign .logt{
+        padding-left: 101px;
+        width: 348px;
+        padding-right: 88px;
+        height: 77px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    
+    }
+
+    .formulaire_de_sign .lien{
+        
+    width: 403px;
+    height: 134px;
+    font-size: x-large;
+    }
+    .btn{
+        
+    width: 180px;
+
+    }
+    .btn a{
+        font-size: x-large;
+    }
+}
+@media(min-width:700px) {
+    .fsign{
+    padding-left: 24px;
+    width: 520px;
+    }
+    .formulaire_de_sign{
+    
+        width: 470px;
+        padding-left: 44px;
+        padding-top: 50px;
+    
+    }
+
+
+
+
+
+
+}
